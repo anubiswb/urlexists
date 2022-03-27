@@ -1,4 +1,6 @@
-<?php error_reporting(0);
+<?php 
+
+error_reporting(0);
 ini_set('display_errors', 0);
 
 function url_exists($url){
@@ -17,6 +19,7 @@ function url_exists($url){
 
 echo url_exists('https://www.anubs-web.com');
 
+echo 'fff';
 
 
 ?>
