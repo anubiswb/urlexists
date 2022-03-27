@@ -1,4 +1,9 @@
 <?php 
+header("Access-Control-Allow-Origin: *");
+header("Content-Type: application/json; charset=UTF-8");
+header("Access-Control-Allow-Methods: *");
+header("Access-Control-Max-Age: 3600");
+header("Access-Control-Allow-Headers: *");
 
 error_reporting(0);
 ini_set('display_errors', 0);
@@ -17,9 +22,12 @@ function url_exists($url){
 }
 
 
-echo url_exists('https://www.anubis-web.com');
+echo url_exists($_GET['url']);
 
-echo 'fff';
+
+
+
+
 
 
 ?>
