@@ -17,7 +17,7 @@ function url_exists($url){
 }
 
 
-echo url_exists('https://www.anubs-web.com');
+echo url_exists('https://www.anubis-web.com');
 
 echo 'fff';
 
